@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shengrens Thought</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background: url('/s4.jpg') no-repeat center center/cover;
+        }
+
+        header {
+            background-color: rgba(46, 59, 85, 0.9);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/mnt/data/s4.jpg') no-repeat center center/cover;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero button {
+            background-color: #FF8C42;
+            color: white;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .hero button:hover {
+            background-color: #FF6B2D;
+        }
+
+        .section {
+            padding: 3rem 2rem;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 2rem auto;
+            border-radius: 10px;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            width: 30%;
+            margin: 1rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            background-color: rgba(249, 249, 249, 0.9);
+        }
+
+        .feature img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .feature h3 {
+            margin-top: 0;
+            color: #2E3B55;
+        }
+
+        .cta {
+            background-color: #FF8C42;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            border-radius: 10px;
+            margin: 2rem;
+        }
+
+        .cta button {
+            background-color: white;
+            color: #FF8C42;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .cta button:hover {
+            background-color: #FFE2D1;
+        }
+
+        footer {
+            background-color: rgba(46, 59, 85, 0.9);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #FF8C42;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Shengrens Thought</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div>
+            <h1>Enlighten Your Path in Science and Math</h1>
+            <p>Empowering Minds Through Knowledge and Practical Insights</p>
+            <button>Discover More</button>
+        </div>
+    </div>
+
+    <section id="about" class="section">
+        <h2>About Shengrens Thought</h2>
+        <p>Shengrens Thought focuses on empowering students by building strong foundations in science and math through innovative teaching methods and engaging workshops. We aim to ignite curiosity and inspire learning.</p>
+    </section>
+
+    <section id="programs" class="section">
+        <h2>Our Programs</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="/s8.png" alt="Interactive Workshops">
+                <h3>Interactive Workshops</h3>
+                <p>Participate in hands-on workshops designed to enhance understanding and spark creativity in problem-solving.</p>
+            </div>
+            <div class="feature">
+                <img src="/s9.png" alt="Personalized Learning">
+                <h3>Personalized Learning</h3>
+                <p>Experience tailored learning paths to address individual needs, strengths, and goals.</p>
+            </div>
+            <div class="feature">
+                <img src="/s10.png" alt="Expert Guidance">
+                <h3>Expert Guidance</h3>
+                <p>Learn from educators with deep expertise and a passion for teaching, fostering growth and knowledge.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="section">
+        <h2>Learning Resources</h2>
+        <p>Explore a treasure trove of resources, including video tutorials, comprehensive notes, quizzes, and science experiments, tailored to every student’s needs.</p>
+        <button>Access Resources</button>
+    </section>
+
+    <div class="cta">
+        <h2>Join Our Learning Community</h2>
+        <p>Start your journey towards mastering science and math with Shengrens Thought.</p>
+        <button>Get Started Now</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Shengrens Thought. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
